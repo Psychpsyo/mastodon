@@ -8,7 +8,7 @@ export const apiFetchNotifications = async (params?: {
 }) => {
   const response = await api().request<ApiNotificationGroupsResultJSON>({
     method: 'GET',
-    url: '/api/v2_alpha/notifications',
+    url: '/api/v2/notifications',
     params,
   });
 
